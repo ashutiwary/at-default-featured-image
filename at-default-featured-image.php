@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
 // Define plugin constants
 define('AT_DEFAULT_FEATURED_IMAGE_PATH', plugin_dir_path(__FILE__));
 define('AT_DEFAULT_FEATURED_IMAGE_URL', plugin_dir_url(__FILE__));
-define('AT_DEFAULT_IMAGE_PLACEHOLDER', plugin_dir_url(__FILE__) . 'assets/default-image-cloudfuze.svg');
+define('AT_DEFAULT_IMAGE_PLACEHOLDER', plugin_dir_url(__FILE__) . 'assets/at-default-featured-image.png');
 
 // Include required files
 require_once AT_DEFAULT_FEATURED_IMAGE_PATH . 'includes/class-at-default-featured-image.php';
